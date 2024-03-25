@@ -3,8 +3,7 @@ import Header from "../components/Header";
 import { MainContainer } from "../style";
 
 function ProfilePage() {
-
-  const { name } = useParams()
+  const { name } = useParams();
 
   return (
     <MainContainer>
